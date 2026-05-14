@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: frame_000126_Shramko_4DGS_apple-Sharp_Generator__standard
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 1179648
+  m_BoundsMin: {x: -2.584242, y: -1.6455402, z: 1.3437513}
+  m_BoundsMax: {x: 2.8035026, y: 1.0289537, z: 5.5326347}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 2a3578804803d01deb8bf72abd862133
+  m_PosFormat: 2
+  m_ScaleFormat: 2
+  m_SHFormat: 3
+  m_ColorFormat: 2
+  m_PosData: {fileID: 4900000, guid: ece013d5cf59b87419be42a931cf68dc, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 5fcbedf970b2f9443b2485c1c3b27979, type: 3}
+  m_OtherData: {fileID: 4900000, guid: f6ff77e0bb5528e43a787434afc877ce, type: 3}
+  m_SHData: {fileID: 4900000, guid: 730573f48f0edcf45bcc454c3c7b8e9a, type: 3}
+  m_ChunkData: {fileID: 4900000, guid: 4d6c295162cfb0b4a8265013345d9f4a, type: 3}
+  m_Cameras: []
