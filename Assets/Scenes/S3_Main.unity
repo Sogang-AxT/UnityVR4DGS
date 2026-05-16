@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12d929a7f62c48adbe9ff45c9a33ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatRenderer
-  m_Asset: {fileID: 11400000, guid: fce1d8f3d95f2cb42bade055be661078, type: 2}
+  m_Asset: {fileID: 11400000, guid: f22e23c04c902074ba34edc753eb965b, type: 2}
   m_RenderOrder: 0
   m_SplatScale: 1
   m_OpacityScale: 1
@@ -223,8 +223,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4e9b09a56b12ba42a006a52dbb55af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Main_Script
+  player: {fileID: 2073174834}
   v: {fileID: 1837115096}
-  BG2: {fileID: 0}
+  isLoopingScene: 0
 --- !u!114 &307974968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -977,7 +978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.206456
+      value: 2.73
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1106,6 +1107,7 @@ GameObject:
   - component: {fileID: 2073174833}
   - component: {fileID: 2073174835}
   - component: {fileID: 2073174834}
+  - component: {fileID: 2073174836}
   m_Layer: 0
   m_Name: Human
   m_TagString: Untagged
@@ -1122,7 +1124,7 @@ Transform:
   m_GameObject: {fileID: 2073174832}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 1.11, y: -0.361, z: 3.22}
+  m_LocalPosition: {x: 1.11, y: -0.633, z: -6.77}
   m_LocalScale: {x: -2.2959497, y: 2.3, z: 2.0109582}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1140,7 +1142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 640f2af3c616f444da540983583ff4aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatPlayer
-  sequence: {fileID: 11400000, guid: e3934c7305f3ae1439c56222a6549677, type: 2}
+  sequence: {fileID: 11400000, guid: 9b8fa196b75e4dd47b3006cf572f21bc, type: 2}
   playbackSpeed: 1
   playbackMode: 1
   playOnEnable: 1
@@ -1165,7 +1167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12d929a7f62c48adbe9ff45c9a33ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatRenderer
-  m_Asset: {fileID: 11400000, guid: a1fe61d7308c42842aeee4ef4562856a, type: 2}
+  m_Asset: {fileID: 11400000, guid: dcb54a677ea41a44e9bfee9119388b1a, type: 2}
   m_RenderOrder: 1
   m_SplatScale: 0.1
   m_OpacityScale: 0.21
@@ -1180,6 +1182,20 @@ MonoBehaviour:
   m_ShaderDebugPoints: {fileID: 4800000, guid: b44409fc67214394f8f47e4e2648425e, type: 3}
   m_ShaderDebugBoxes: {fileID: 4800000, guid: 4006f2680fd7c8b4cbcb881454c782be, type: 3}
   m_CSSplatUtilities: {fileID: 7200000, guid: ec84f78b836bd4f96a105d6b804f08bd, type: 3}
+--- !u!114 &2073174836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073174832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fcf79d0b05c7cf4f844d7ac398962db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  mainScript: {fileID: 307974967}
+  movementSpeed: 1.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
