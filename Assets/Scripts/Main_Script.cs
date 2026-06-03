@@ -38,14 +38,8 @@ public class Main_Script : MonoBehaviour {
         {
             StartCoroutine(LoadNextSceneAfterDelay(1.0f));
         }
-        
-        // if (Input.GetKeyDown(KeyCode.Q))
-        // {
-        //     BG2.SetActive(!BG2.activeSelf);
-        // }
     }
-
-
+    
     private void OnLoadNextSceneAfterLoop() {
         var currentFrameTime = player.normalizedTime;
 
