@@ -410,9 +410,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VoiceScript
   Voice:
-  - {fileID: 8300000, guid: f73ddcbaeddfaaf459c701499b2a166e, type: 3}
-  - {fileID: 8300000, guid: 1eb26ab4f521aef4d9fd348e0260d258, type: 3}
-  - {fileID: 8300000, guid: 214e1866fdeeda645be1e73c3e940fe4, type: 3}
+  - {fileID: 8300000, guid: eb998e570537f6e4893b56aa84350526, type: 3}
+  - {fileID: 8300000, guid: 3f4ad5a1b6b98bd418ea157d169e98d7, type: 3}
+  - {fileID: 8300000, guid: 991f4c23bec098c49bef2c1cc1fdea45, type: 3}
 --- !u!1 &333493984
 GameObject:
   m_ObjectHideFlags: 0
